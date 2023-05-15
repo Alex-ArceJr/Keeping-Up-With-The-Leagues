@@ -1,8 +1,15 @@
 
 
+import {Link} from 'react-router-dom'
 
-export default function NavBar() {
+export default function NavBar({user}) {
   return (
-    <h1>NavBar</h1>
+    <nav>
+      <Link to='/games'>All Games</Link>
+
+      <Link to='/'>Games</Link>
+
+       <h5>Welcome, {user}</h5>
+    </nav>
   )
 }
