@@ -1,0 +1,27 @@
+ .logBtn {
+  margin-top: 3rem;
+  padding: 10px 15px;
+  background-color: #d27d45;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ .logBtn:hover {
+  background-color: #8b5c2d;
+}
+
+.signBtn {
+  margin-top: 3rem;
+    padding: 10px 15px;
+    background-color: #d27d45;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signBtn:hover {
+  background-color: #8b5c2d;
+}

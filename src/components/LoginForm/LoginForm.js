@@ -1,5 +1,5 @@
 
-
+import './LoginForm.css'
 
 import { useState } from "react"
 
@@ -21,8 +21,10 @@ export default function LoginPage({setUser}) {
   }
 
   return (
-    <>
+    <div>
+
       <h2>Sign In</h2>
+      <div className="login-form-container">
       <form onSubmit={handleSubmit}>
         <label >Name</label>
         <input
@@ -48,6 +50,7 @@ export default function LoginPage({setUser}) {
         />
         <button type="submit"> Log In</button>
       </form>
-    </>
+      </div>
+    </div>
   )
 }
