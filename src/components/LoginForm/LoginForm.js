@@ -12,7 +12,7 @@ export default function LoginPage({setUser}) {
   });
 
   const handleChange = (evt) => {
-    setNewUser(evt.target.value)
+    setNewUser({ ...newUser, [evt.target.name]: evt.target.value})
   }
 
   const handleSubmit = (evt) => {
@@ -31,6 +31,8 @@ export default function LoginPage({setUser}) {
         type="text"
         name="name"
         required
+        value={newUser.name}
+        onChange={handleChange}
         />
         <label>Email</label>
         <input

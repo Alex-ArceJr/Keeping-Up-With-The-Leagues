@@ -1,15 +1,14 @@
-
+import './NavBar.css'
 
 import {Link} from 'react-router-dom'
 
 export default function NavBar({user}) {
   return (
-    <nav>
+    <nav className='topBar'>
       <Link to='/games'>All Games</Link>
+      <Link to='/'>Home</Link>
 
-      <Link to='/'>Games</Link>
-
-       <h5>Welcome, {user}</h5>
+       <span>Welcome, {user.name}</span>
     </nav>
   )
 }

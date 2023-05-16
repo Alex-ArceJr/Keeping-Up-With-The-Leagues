@@ -14,7 +14,7 @@ export default function SignUpForm({setUser}) {
 
 
   const handleChange = (evt) => {
-    setNewUser(evt.target.value)
+    setNewUser({...newUser, [evt.target.name] : evt.target.value})
   }
 
   const handleSubmit = (evt) => {

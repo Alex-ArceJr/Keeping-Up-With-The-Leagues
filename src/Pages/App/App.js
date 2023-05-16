@@ -6,7 +6,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import {Routes, Route} from 'react-router-dom';
 import GamesListDetailPage from '../GamesListDetailPage/GamesListDetailPage';
 import GamesListPage from '../GamesListPage/GamesListPage';
-
+import Main from '../Main/Main';
 
 
 function App() {
@@ -19,6 +19,11 @@ function App() {
       {user ?
         <>
         <NavBar user={user}/>
+        <Routes>
+          <Route path='/' element={<Main />}/>
+          <Route path='/games' element={<GamesListPage/>}/>
+          <Route path='/games/:id' element={<GamesListDetailPage/>}/>
+        </Routes>
         </>
         :
         <AuthPage setUser={setUser}/>
