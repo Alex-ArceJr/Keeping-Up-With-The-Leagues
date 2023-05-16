@@ -4,8 +4,8 @@ import {useState} from 'react'
 import NavBar from '../../components/NavBar/NavBar';
 import AuthPage from '../AuthPage/AuthPage';
 import {Routes, Route} from 'react-router-dom';
-import GamesListDetailPage from '../GamesListDetailPage/GamesListDetailPage';
-import GamesListPage from '../GamesListPage/GamesListPage';
+import BreweriesListDetailPage from '../BreweriesListDetailPage/BreweriesListDetailPage'
+import BreweriesListPage from '../BreweriesListPage/BreweriesListPage';
 import Main from '../Main/Main';
 
 
@@ -18,11 +18,11 @@ function App() {
     <main className="App">
       {user ?
         <>
-        <NavBar user={user}/>
+        <NavBar user={user} setUser={setUser}/>
         <Routes>
           <Route path='/' element={<Main />}/>
-          <Route path='/games' element={<GamesListPage/>}/>
-          <Route path='/games/:id' element={<GamesListDetailPage/>}/>
+          <Route path='/brewery' element={<BreweriesListPage/>}/>
+          <Route path='/brewery/:id' element={<BreweriesListDetailPage />}/>
         </Routes>
         </>
         :

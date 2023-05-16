@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.brew-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
