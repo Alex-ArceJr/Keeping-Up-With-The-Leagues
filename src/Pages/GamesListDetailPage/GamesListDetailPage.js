@@ -16,6 +16,7 @@ const fetchMatch = async () => {
   try {
     const response = await fetch(url);
     const matchData = await response.json();
+    console.log(matchData)
     setMatch(matchData)
   } catch (error) {
 
@@ -30,7 +31,7 @@ useEffect(() => {
 
   return (
     <div>
-      <h2>{}</h2>
+      <h2></h2>
     </div>
   )
 }

@@ -12,7 +12,7 @@ export default function GamesListPage(props) {
     try {
       const response = await fetch('https://www.scorebat.com/video-api/v3/feed/?token=ODYzMjZfMTY4NDA5MTU2NV8wYTNiMzU2OTNhZDI3ODQ4ZDMxZjU0ZDY3ZmNkZDQ2M2JhZjVhMzNi');
       const gameData = await response.json();
-      console.log(gameData)
+
       setGames(gameData.response)
     }catch (error) {
 
