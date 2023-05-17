@@ -11,7 +11,7 @@ import Main from '../Main/Main';
 
 function App() {
 
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState('')
 
 
   return (
