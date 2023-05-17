@@ -11,7 +11,7 @@ import Main from '../Main/Main';
 
 function App() {
 
-  const [user, setUser] = useState('')
+  const [user, setUser] = useState('dup')
 
 
   return (
