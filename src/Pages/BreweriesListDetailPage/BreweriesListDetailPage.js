@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useState } from "react"
 import { useLocation } from "react-router-dom";
 import  Heart from 'react-animated-heart'
 
@@ -11,8 +10,7 @@ export default function BreweriesListDetailPage({setLikes, likes}) {
 
   const location = useLocation();
   const {brewery} = location.state
-  //extract the id url param using the useParams hoook
-const {id} = useParams();
+
 
 
 const handleLikeClick = (evt) => {
