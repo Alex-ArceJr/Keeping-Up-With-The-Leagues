@@ -12,7 +12,10 @@ export default function NavBar({user, setUser}) {
   return (
     <nav className='topBar'>
       <Link to='/brewery'>
-        <button className='nav-button'>All Breweries</button>
+        <button className='nav-button'>California Breweries</button>
+      </Link>
+      <Link to='/oregon'>
+        <button className='nav-button'>Oregon Breweries</button>
       </Link>
       <Link to='/'>
         <button className='nav-button'>Home</button>

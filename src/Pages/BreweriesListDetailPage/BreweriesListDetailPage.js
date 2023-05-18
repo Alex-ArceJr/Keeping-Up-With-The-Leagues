@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import { useLocation } from "react-router-dom";
 import  Heart from 'react-animated-heart'
 
-export default function BreweriesListDetailPage() {
+export default function BreweriesListDetailPage({setLikes, likes}) {
 
 
   const [likeCount, setLikeCount] = useState(0);
@@ -16,10 +16,21 @@ const {id} = useParams();
 
 
 const handleLikeClick = (evt) => {
-  setLikeCount(likeCount + 1)
+  if(likes.indexOf (brewery.name) !== -1) {
+    setLikes([])
+    setLikeCount(likeCount )
+  } else {
+
+    setLikeCount(likeCount + 1)
+    setLikes(...likes, brewery.name)
+  }
+  console.log(likes)
+  console.log(setLikes)
+  console.log(setLikeCount)
 }
 
 const handleClick = (evt) => {
+
   setClick(!isClick)
 }
 
@@ -29,7 +40,6 @@ const handleClick = (evt) => {
       <h2>Brewery Type: {brewery.brewery_type}</h2>
       <h2> Location: {brewery.city}</h2>
       <h2> Website: <a href={brewery.website_url}> Redirect</a> </h2>
-      {/* <button onClick={handleClick}>Like</button> */}
       <Heart onClick={() => {handleLikeClick() ; handleClick ()}} isClick={isClick} />
 
       <p>{likeCount}</p>
