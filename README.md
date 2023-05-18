@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Keeping Up With The Leagues
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Keeping Up With The Leagues, lets you browse through 50 breweries in California and Oregon.  Users are also able to leave likes on individual breweries.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Netlify](https://moonlit-axolotl-6f903f.netlify.app/)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+* JavaScript
+* React
+* Open Brewery DB API (with multiple endpoints)
+
+
+## Components of Site
+
+Log In/Sign In Form
+
+![Screen Shot 2023-05-18 at 4 17 49 PM](https://github.com/Alex-ArceJr/Keeping-Up-With-The-Leagues/assets/106491940/58719352-b85c-481a-a7e7-8d07007a591d)
+
+Sign Up Form
+
+![Screen Shot 2023-05-18 at 4 19 06 PM](https://github.com/Alex-ArceJr/Keeping-Up-With-The-Leagues/assets/106491940/eac518e3-caff-4f72-95ce-24350d5e936a)
+
+Home Page
+
+![Screen Shot 2023-05-18 at 4 20 41 PM](https://github.com/Alex-ArceJr/Keeping-Up-With-The-Leagues/assets/106491940/2c840637-a4df-408c-b8c5-205688d177e4)
+
+California Breweries Page
+
+![Screen Shot 2023-05-18 at 4 21 51 PM](https://github.com/Alex-ArceJr/Keeping-Up-With-The-Leagues/assets/106491940/d08c93da-0e7b-42c4-a3fc-e113fd4a4221)
+
+Individual Brewery Page
+ 
+ ![Screen Shot 2023-05-18 at 4 42 56 PM](https://github.com/Alex-ArceJr/Keeping-Up-With-The-Leagues/assets/106491940/fbb9f88a-45cb-45cc-8b1d-0e7462878a27)
+
+
+## Getting Started 
+The deployment is [here](https://moonlit-axolotl-6f903f.netlify.app/) website will prompt you to Log In or Sign In.  You will get transfered to the home page displaying my favorite brewery. If picture is clicked it will provide more information on Brewery.  User will be able to look at Breweries from California or Oregon and be given more information about individual brewery if clicked on.
+
+## Icebox Features 
+* Have user information connected to backend to log information.
+* Be able log the amount of likes an indivdual brewery has.
+
+
+
+
