@@ -27,7 +27,7 @@ function App() {
           <Route path='/brewery' element={<BreweriesListPage/>}/>
           <Route path='/oregon' element={<OregonBreweriesList/>}/>
           <Route path='/brewery/:id' element={<BreweriesListDetailPage setLikes={setLikes} likes={likes}/>}/>
-          <Route path='/oregon/:id' element={<OregonBreweriesDetailListPage />} />
+          <Route path='/oregon/:id' element={<OregonBreweriesDetailListPage setLikes={setLikes} likes={likes} />} />
         </Routes>
         </>
         :
