@@ -20,18 +20,16 @@ const handleLikeClick = (evt) => {
     setLikes([])
     setLikeCount(likeCount )
   } else {
-
+    if(likeCount < 1){
     setLikeCount(likeCount + 1)
     setLikes(...likes, brewery.name)
   }
-  console.log(likes)
-  console.log(setLikes)
-  console.log(setLikeCount)
+}
 }
 
 const handleClick = (evt) => {
-
-  setClick(!isClick)
+  if(!isClick)
+  setClick(true)
 }
 
   return (
