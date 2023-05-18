@@ -6,8 +6,11 @@ h1 {
   align-items: center;
 }
 
-.slushee-img {
+img {
   display: flex;
-  border: 2px black;
+  border: 5px black;
   border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }

@@ -24,11 +24,18 @@ export default function GamesListPage(props) {
 
 
 
+
   return (
+
     <div className="games-list">
+
       {breweries.map(brewery => {
-        return <BreweryCard key={brewery.title} brewery={brewery}  />
+        return <BreweryCard key={brewery.title} brewery={brewery}
+        />
       })}
     </div>
+
+
+
   )
 }

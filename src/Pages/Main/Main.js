@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-
+ import './Main.css'
 
 export default function Main() {
 
