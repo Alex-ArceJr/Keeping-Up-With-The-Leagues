@@ -10,6 +10,7 @@ Keeping Up With The Leagues, lets you browse through 50 breweries in California 
 ## Technologies Used
 * JavaScript
 * React
+* CSS
 * Open Brewery DB API (with multiple endpoints)
 
 
