@@ -45,7 +45,5 @@ The deployment is [here](https://moonlit-axolotl-6f903f.netlify.app/) website wi
 * Be able log the amount of likes an indivdual brewery has.
 
 
-## Next Steps
-* Add a rating with stars to each article
-* Be able to share articles with other users.
+
 
